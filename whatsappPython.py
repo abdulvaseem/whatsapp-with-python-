@@ -8,6 +8,8 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome(r'D:\New folder\Abdul\chromedriver.exe')
 driver.get(r"https://web.whatsapp.com/")
 string title = "Hanish"
+message="hai Hanish ,how are you?"
+
 driver.findElement(By.CSS_SELECTOR("[title^='"+title+"']")).click();
 
 inp_xpath = '[@dir="auto"][@data-tab="1"]'
